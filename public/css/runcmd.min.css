@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:300");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+}
+
+body {
+  background: #2d2d2d;
+  color: #cdcdcd;
+  font-family: 'Encode Sans Expanded';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: white;
+  color: #2d2d2d;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.x-logo {
+  float: left;
+  margin-top: 15px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #202020;
+}
+
+.x-logo img {
+  max-width: 100px;
+}
+
+@media (max-width: 700px) {
+  .x-logo {
+    float: none;
+  }
+}
+
+nav {
+  float: right;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+nav ul li:hover {
+  border-bottom: 4px solid #cc0000;
+  -webkit-transition: color 0.3s;
+  /* Safari */
+  transition: color 0.3s;
+}
+
+@media (max-width: 700px) {
+  nav {
+    float: none;
+    margin-top: 45px;
+  }
+}
+
+section {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.x-book-tile {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: white;
+  color: #2d2d2d;
+}
+
+.x-book-tile .x-book-tile_title {
+  margin: 15px 0 30px;
+  font-size: 30px;
+}
+
+.x-book-tile .x-book-tile_cover {
+  float: left;
+  max-width: 28%;
+  width: 100%;
+  margin-right: 2%;
+}
+
+.x-book-tile .x-book-tile_cover img {
+  width: 100%;
+}
+
+.x-book-tile .x-book-tile_content {
+  float: right;
+  width: 70%;
+  line-height: 1.8;
+  padding-bottom: 15px;
+}
+
+.x-book-tile .x-book-tile_content p {
+  margin: 0 0 15px;
+}
+
+@media (max-width: 700px) {
+  .x-book-tile .x-book-tile_cover {
+    float: none;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  .x-book-tile .x-book-tile_content {
+    float: none;
+    width: 100%;
+  }
+}
+
+.x-button {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 18px;
+  background-color: #cc0000;
+  color: white;
+}
+
+.x-button:hover {
+  background-color: #b30000;
+  -webkit-transition: background-color 0.3s;
+  /* Safari */
+  transition: background-color 0.3s;
+}
+
+.x-header-intro {
+  position: absolute;
+  max-width: 964px;
+  top: 55%;
+  right: 0;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.x-music-tile {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: white;
+  color: #2d2d2d;
+}
+
+.x-music-tile .x-music-tile_title {
+  margin: 15px 0 30px;
+  font-size: 30px;
+}
+
+.x-music-tile .x-music-tile_content {
+  width: 100%;
+  line-height: 1.8;
+  padding-bottom: 15px;
+}
+
+.x-music-tile .x-music-tile_content p {
+  margin: 0 0 15px;
+}
+
+.x-progress-bar {
+  width: 100%;
+  height: 5px;
+  background: #cdcdcd;
+}
+
+.x-tiles ul {
+  list-style-type: none;
+}
+
+.x-tiles ul li {
+  background: white;
+  color: #2d2d2d;
+  float: left;
+  width: 32%;
+  margin: 0 0 2% 0;
+  padding: 15px;
+  position: relative;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.x-tiles ul li img {
+  width: 100%;
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.x-tiles ul li .x-tiles_description {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.x-tiles ul li .x-tiles_description p {
+  color: white;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 42%;
+  position: absolute;
+  width: 100%;
+  font-size: 20px;
+}
+
+.x-tiles ul li:hover .x-tiles_description {
+  top: 0;
+  -webkit-transition: top 0.3s ease-out;
+  /* Safari */
+  transition: top 0.3s ease-out;
+}
+
+.x-tiles ul li:nth-child(3n+2) {
+  margin: 0 2% 2%;
+}
+
+@media (max-width: 700px) {
+  .x-tiles ul li {
+    width: 46%;
+    margin: 0 0 4% 0;
+  }
+  .x-tiles ul li:nth-child(3n+2) {
+    margin: 0 0 4% 0;
+  }
+  .x-tiles ul li:nth-child(2n) {
+    margin: 0 4% 4%;
+  }
+}
+
+.x-title {
+  margin: 30px 0 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.u-clear {
+  width: 100%;
+  clear: both;
+}
+
+.u-pos-centre {
+  margin: 0 auto;
+}
+
+.u-push-bot {
+  margin-bottom: 15px;
+}
+
+.u-push-bot-x2 {
+  margin-bottom: 15px;
+}
+
+.u-push-bot-x4 {
+  margin-bottom: 60px;
+}
+
+.u-fill {
+  padding: 15px;
+}
+
+.u-float-right {
+  float: right;
+}

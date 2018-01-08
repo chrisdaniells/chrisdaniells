@@ -1,0 +1,45 @@
+.x-book-tile {
+    margin-bottom: $std-dim * 2;
+    padding: $std-dim;
+    background: white;
+    color: $dark-grey;
+
+    .x-book-tile_title {
+        margin: $std-dim 0 $std-dim * 2;
+        font-size: 30px;
+    }
+
+    .x-book-tile_cover {
+        float: left;
+        max-width: 28%;
+        width: 100%;
+        margin-right: 2%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .x-book-tile_content {
+        float: right;
+        width: 70%;
+        line-height: 1.8;
+        padding-bottom: $std-dim;
+
+        p {
+            margin: 0 0 $std-dim;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .x-book-tile_cover  {
+            float: none;
+            max-width: 100%;
+            margin-bottom: $std-dim;
+        }
+        .x-book-tile_content  {
+            float: none;
+            width: 100%;
+        }
+    }
+}

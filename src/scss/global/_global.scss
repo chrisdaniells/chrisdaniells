@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+body {
+    background: $dark-grey;
+    color: $light-grey;
+    font-family: 'Encode Sans Expanded';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}

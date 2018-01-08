@@ -1,0 +1,27 @@
+nav {
+    float: right;
+    font-size: 20px;
+    margin-top: 80px;
+    
+    ul {
+        list-style-type: none;
+        
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            cursor: pointer;
+            padding-bottom: 5px;
+
+            &:hover {
+                border-bottom: 4px solid $brand-red;
+                -webkit-transition: color 0.3s; /* Safari */
+                transition: color 0.3s;
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        float: none;
+        margin-top: $std-dim * 3;
+    }
+}

@@ -1,0 +1,26 @@
+.u-clear {
+    width: 100%;
+    clear: both;
+}
+
+.u-pos-centre {
+    margin: 0 auto;
+}
+
+.u-push-bot {
+    margin-bottom: $std-dim;
+}
+.u-push-bot-x2 {
+    margin-bottom: $std-dim;
+}
+.u-push-bot-x4 {
+    margin-bottom: $std-dim * 4;
+}
+
+.u-fill {
+    padding: 15px;
+}
+
+.u-float-right {
+    float: right;
+}

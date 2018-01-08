@@ -1,0 +1,13 @@
+{
+  "name": "runcmd",
+  "version": "1.0.0",
+  "description": "RUNCMD",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Christopher Daniells",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  }
+}

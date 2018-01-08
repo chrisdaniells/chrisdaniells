@@ -1,0 +1,13 @@
+.x-button {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: $brand-red;
+    color: white;
+
+    &:hover {
+        background-color: darken($brand-red, 5%);
+        -webkit-transition: background-color 0.3s; /* Safari */
+        transition: background-color 0.3s;
+    }
+}
