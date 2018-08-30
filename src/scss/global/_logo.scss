@@ -1,12 +1,10 @@
 .x-logo {
     float: left;
     margin-top: $std-dim;
-    padding: $std-dim;
     display: inline-block;
-    background-color: #202020; //temp
     
     img {
-        max-width: 100px;
+        max-width: 130px;
     }
 
     @media (max-width: 700px) {

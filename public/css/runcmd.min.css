@@ -37,13 +37,11 @@ header {
 .x-logo {
   float: left;
   margin-top: 15px;
-  padding: 15px;
   display: inline-block;
-  background-color: #202020;
 }
 
 .x-logo img {
-  max-width: 100px;
+  max-width: 130px;
 }
 
 @media (max-width: 700px) {
