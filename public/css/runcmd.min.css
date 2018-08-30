@@ -68,7 +68,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  border-bottom: 4px solid #cc0000;
+  border-bottom: 4px solid #7f0000;
   -webkit-transition: color 0.3s;
   /* Safari */
   transition: color 0.3s;
@@ -138,12 +138,12 @@ section {
   display: inline-block;
   padding: 20px 30px;
   font-size: 18px;
-  background-color: #cc0000;
+  background-color: #7f0000;
   color: white;
 }
 
 .x-button:hover {
-  background-color: #b30000;
+  background-color: #660000;
   -webkit-transition: background-color 0.3s;
   /* Safari */
   transition: background-color 0.3s;
